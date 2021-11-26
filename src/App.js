@@ -1,20 +1,33 @@
 
 import './App.css';
-import Aside from './aside'
-import Main from './main'
-import Player from './player';
+import Home from './home';
+import Search from './search';
+
+import {BrowserRouter as Router , Route , Switch} from 'react-router-dom' ;
+import Library from './library';
+
+
 
 
 
 function App() {
   return (
+    <Router> 
     <>
-    <div className="container">
-                <Aside/>
-                <Main/>
-    </div>
-                <Player/>
+     <Switch>
+           <Route exact path="/">
+                 <Home/>
+           </Route>
+           <Route path="/search">
+                 <Search/>
+           </Route>
+           <Route path="/library">
+                 <Library/>
+           </Route>
+     </Switch>
+
     </>
+    </Router>
   );
 }
 
