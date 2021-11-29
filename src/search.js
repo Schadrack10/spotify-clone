@@ -9,11 +9,11 @@ const Search = () => {
         <div className="container">
             <Aside/>
               <div className="main">
-                   <h4>Search-page</h4>
+                   <h4>Search page</h4>
               </div>
          </div>
             <Player/>
-        
+         
         </>
     )
 

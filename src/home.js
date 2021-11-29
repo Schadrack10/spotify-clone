@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import Aside from './aside' ;
 import Player from './player';
-
+// schadrack
 
 const Home = () => {
 
@@ -12,7 +12,7 @@ const Home = () => {
                 <Aside/>
                 
                 <div className="main">
-                      <h4>home-page</h4>
+                      <h4>home page</h4>
                 </div>
               
      </div>

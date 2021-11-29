@@ -9,7 +9,7 @@ const Library = () => {
         <div className="container">
             <Aside/>
               <div className="main">
-                   <h4>library-page</h4>
+                   <h4>library page</h4>
               </div>
          </div>
             <Player/>
