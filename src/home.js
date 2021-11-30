@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import Aside from './aside' ;
+import Greet from './greet';
 import Player from './player';
 // schadrack
 
@@ -12,7 +13,15 @@ const Home = () => {
                 <Aside/>
                 
                 <div className="main">
-                      <h4>home page</h4>
+                    <div className="Top-bar">
+                          <div>
+                            <button> back</button>
+                            <button> front</button>
+                          </div>
+                          <div>Right</div>
+                    </div>
+                    <Greet/>
+
                 </div>
               
      </div>
