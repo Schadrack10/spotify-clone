@@ -42,7 +42,7 @@ background-color: rgb(80, 78, 78);
     }
     
 .Top-bar{
-    background: rgb(29, 29, 29);
+    background: transparent;
     position:sticky;
     top :0;
      width: 100%;
@@ -75,8 +75,20 @@ background-color: rgb(80, 78, 78);
    border:1px solid rgb(15, 15, 15);
    color:white;
 }
-.greet-section{
-   /* border: 1px solid rgb(73, 73, 73); */
-   height: 700px;
-   padding: 10px 20px;
+.upgrade-btn{
+    background: rgb(22, 22, 22);
+     color: white;
+     border: none;
+     border-radius: 20px;
+      width: 140px;
+      height: 35px;
+      font-size: 11px;
+      cursor: pointer;
+      text-transform: uppercase;
+      margin: 0 7px;
 }
+.upgrade-btn:hover{
+   width: 142px;
+   height: 40px;
+}
+
