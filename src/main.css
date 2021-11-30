@@ -15,9 +15,9 @@
 
  }
  .mini-card{
-      border: 1px solid rgb(51, 51, 51);
-       width: 340px;
-       height: 80px;
+       background: linear-gradient(to bottom ,rgb(37, 37, 37),rgb(41, 41, 41));
+       width: 320px;
+       height: 90px;
        /* flex: 1; */
        /* margin: 0 5px; */
        border-radius: 7px;
