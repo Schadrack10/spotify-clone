@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './App.css';
 import Aside from './aside' ;
 import Greet from './greet';
@@ -7,7 +6,6 @@ import Player from './player';
 import './main.css'
 import Card from './card';
 import Account from './account';
-// schadrack
 
 const Home = () => {
 
