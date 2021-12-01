@@ -16,7 +16,7 @@ const Greet = () => {
         <div className="greet-section">
              <h2  style={{
                   fontSize:25
-             }}>Good morning</h2>  
+             }}>Good Morning</h2>  
        
 
           <div className="card-container">
